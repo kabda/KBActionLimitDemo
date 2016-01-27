@@ -15,4 +15,4 @@ UIControl+kb_limit.h是UIControl的一个Category，用于UIControl的限流，�
 ```
 
 ##CocoaPods
-`pod 'UIImage+PHA', '~> 0.0.2'`
+`pod 'UIControl+kb_limit', '~> 1.0.1'`
