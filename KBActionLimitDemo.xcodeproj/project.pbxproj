@@ -12,7 +12,7 @@
 		9035D5191C588F0F004ADCE1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9035D5181C588F0F004ADCE1 /* ViewController.m */; };
 		9035D51E1C588F0F004ADCE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9035D51D1C588F0F004ADCE1 /* Assets.xcassets */; };
 		9035D5211C588F0F004ADCE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9035D51F1C588F0F004ADCE1 /* LaunchScreen.storyboard */; };
-		9035D52E1C58D565004ADCE1 /* UIControl+kb_limit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9035D52D1C58D565004ADCE1 /* UIControl+kb_limit.m */; };
+		9035D5321C58DE1E004ADCE1 /* UIControl+kb_limit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9035D5311C58DE1E004ADCE1 /* UIControl+kb_limit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,8 +25,8 @@
 		9035D51D1C588F0F004ADCE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9035D5201C588F0F004ADCE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9035D5221C588F0F004ADCE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9035D52C1C58D565004ADCE1 /* UIControl+kb_limit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+kb_limit.h"; sourceTree = "<group>"; };
-		9035D52D1C58D565004ADCE1 /* UIControl+kb_limit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+kb_limit.m"; sourceTree = "<group>"; };
+		9035D5301C58DE1E004ADCE1 /* UIControl+kb_limit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+kb_limit.h"; sourceTree = "<group>"; };
+		9035D5311C58DE1E004ADCE1 /* UIControl+kb_limit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+kb_limit.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +43,7 @@
 		9035D5051C588F0F004ADCE1 = {
 			isa = PBXGroup;
 			children = (
+				9035D52F1C58DE1E004ADCE1 /* Classes */,
 				9035D5101C588F0F004ADCE1 /* KBActionLimitDemo */,
 				9035D50F1C588F0F004ADCE1 /* Products */,
 			);
@@ -59,7 +60,6 @@
 		9035D5101C588F0F004ADCE1 /* KBActionLimitDemo */ = {
 			isa = PBXGroup;
 			children = (
-				9035D5281C588FAE004ADCE1 /* Class */,
 				9035D5141C588F0F004ADCE1 /* AppDelegate.h */,
 				9035D5151C588F0F004ADCE1 /* AppDelegate.m */,
 				9035D5171C588F0F004ADCE1 /* ViewController.h */,
@@ -80,13 +80,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		9035D5281C588FAE004ADCE1 /* Class */ = {
+		9035D52F1C58DE1E004ADCE1 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				9035D52C1C58D565004ADCE1 /* UIControl+kb_limit.h */,
-				9035D52D1C58D565004ADCE1 /* UIControl+kb_limit.m */,
+				9035D5301C58DE1E004ADCE1 /* UIControl+kb_limit.h */,
+				9035D5311C58DE1E004ADCE1 /* UIControl+kb_limit.m */,
 			);
-			path = Class;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,9 +158,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9035D5321C58DE1E004ADCE1 /* UIControl+kb_limit.m in Sources */,
 				9035D5191C588F0F004ADCE1 /* ViewController.m in Sources */,
 				9035D5161C588F0F004ADCE1 /* AppDelegate.m in Sources */,
-				9035D52E1C58D565004ADCE1 /* UIControl+kb_limit.m in Sources */,
 				9035D5131C588F0F004ADCE1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
