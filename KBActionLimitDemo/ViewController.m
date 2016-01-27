@@ -20,7 +20,7 @@
     
     self.view.backgroundColor = [UIColor whiteColor];
     
-    
+    // 设置全局时间
     [UIControl setGlobalLimitTime:2.0];
     
     UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(20.0, 100.0, 80.0, 44.0)];
@@ -29,6 +29,8 @@
     [btn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     [btn setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
     [btn addTarget:self action:@selector(buttonAction) forControlEvents:UIControlEventTouchUpInside];
+    // 设置控件独立时间
+    [btn setLimitTime:3.0];
     [self.view addSubview:btn];
 }
 
